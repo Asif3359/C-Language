@@ -1,0 +1,2 @@
+Enter i : 
+hello world 10
