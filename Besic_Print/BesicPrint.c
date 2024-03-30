@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// ESCAPE (/,\,%,etc)
+
 int main()
 {
     printf("Hi");
