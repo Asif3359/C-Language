@@ -3,7 +3,11 @@
 int main(int argc, char const *argv[])
 {
 
-    int sum, sub, multi,mod, a, b;
+    /*
+    Arith Metic Operator (+,-,*,/)
+    */
+
+    int sum, sub, multi, mod, a, b;
     float div;
     printf("Enter Two Integer Number :");
     scanf("%d %d", &a, &b);
