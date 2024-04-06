@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SecondJava",
+      "request": "launch",
+      "mainClass": "Java.SecondJava",
+      "projectName": "C-Language_b8b97636"
+    }
+  ]
+}
