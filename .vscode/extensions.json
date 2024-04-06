@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "formulahendry.code-runner",
+        "ms-vscode.cpptools"
     ]
 }

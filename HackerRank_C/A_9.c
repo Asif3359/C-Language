@@ -6,15 +6,15 @@ int main(int argc, char const *argv[])
 
     scanf("%d", &N);
 
-    int size = N * 2 - 1;
+    int size = 2 * N - 1;
 
-    for (int i = 0; i < N; i++)
+    for (int i = 0; i < size; i++)
     {
-        for (int j = 0; j < N; j++)
+        for (int j = 0; j < size; j++)
         {
             int x, y;
 
-            if (i > N)
+            if (i < N)
             {
                 x = i;
             }
@@ -22,18 +22,27 @@ int main(int argc, char const *argv[])
             {
                 x = size - i - 1;
             }
-            int value;
-            if (x > N)
+
+            if (j < N)
             {
-                value = x ;
+                y = j;
             }
             else
             {
-               value = y ;
+                y = size - j - 1;
             }
-
-            // if(x)
+            int value;
+            if (x < y)
+            {
+                value = x;
+            }
+            else
+            {
+                value = y;
+            }
+            printf("%d ", N - value);
         }
+        printf("\n");
     }
 
     return 0;
