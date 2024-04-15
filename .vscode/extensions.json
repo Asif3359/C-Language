@@ -2,6 +2,7 @@
     "recommendations": [
         "pkief.material-icon-theme",
         "formulahendry.code-runner",
-        "ms-vscode.cpptools"
+        "ms-vscode.cpptools",
+        "divyanshuagrawal.competitive-programming-helper"
     ]
 }
