@@ -9,34 +9,53 @@ int main() {
     int lenS1 = strlen(S1);
     int lenS2 = strlen(S2);
 
-    int i;
+    int i = strcmp(S1 , S2);
 
-    for (i = 0; i < lenS1 && i < lenS2; i++) 
+    if(i<0)
     {
-        if (S1[i] < S2[i]) 
-        {
-            printf("%s\n", S1);
-            return 0;
-        }
-        else if (S2[i] < S1[i])
-        {
-            printf("%s\n", S2);
-            return 0;
-        }
+        printf("%s\n",S1);
     }
-
-    if (lenS1 < lenS2) 
+    else if(i>0)
     {
-        printf("%s\n", S1);
+        printf("%s\n",S2);
     }
-    else if (lenS2 < lenS1)
-    {
-        printf("%s\n", S2);
-    } 
     else
     {
-        printf("%s\n", S1);
+        printf("%s\n",S1);
     }
+
+    // for (i = 0; i < lenS1 && i < lenS2; i++) 
+    // {
+    //     if (S1[i] < S2[i]) 
+    //     {
+    //         printf("%s\n", S1);
+    //         return 0;
+    //     }
+    //     else if (S2[i] < S1[i])
+    //     {
+    //         printf("%s\n", S2);
+    //         return 0;
+    //     }
+    //     if(S1[i] == S2[i])
+    //     {
+    //         if (lenS1 < lenS2) 
+    //         {
+    //             printf("%s\n", S1);
+    //             return 0;
+    //         }
+    //         else if (lenS2 < lenS1)
+    //         {
+    //             printf("%s\n", S2);
+    //             return 0;
+    //         } 
+    //         else
+    //         {
+    //             printf("%s\n", S1);
+    //             return 0;
+    //         }
+    //     }
+    // }
+
 
     return 0;
 }
